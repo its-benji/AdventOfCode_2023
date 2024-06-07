@@ -16,7 +16,6 @@ for x in range(1000):
     rline = list(reversed(line))
     for i in range(len(rline)):
         if(rline[i].isnumeric()):
-            print(rline[i])
             var2 = rline[i]
             break
     var3=var1+var2
